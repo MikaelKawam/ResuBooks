@@ -1,0 +1,27 @@
+<h1> Cadastre o seu livro </h1>
+<form action="/books/insertbook" method="POST" class="form">
+  <div class="form-control">
+    <label for="title">Título:</label>
+    <input type="text" name="title" placeholder="Digite o título." />
+       <label for="resume">Resumo do livro:</label>
+    <input
+      type="string"
+      name="resume"
+      placeholder="Digite o resumo do livro?" value="{{book.resume}}"
+    />
+
+     
+   
+    <label for="pageqty">Número de pagínas:</label>
+    <input
+      type="number"
+      name="pageqty"
+      placeholder="Quantas páginas o livro tem?"
+    />
+
+<br>
+ 
+  <input type="submit" class="btn" value="Cadastrar" />
+ </div>
+
+</form>

@@ -1,0 +1,153 @@
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  border-bottom: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+    text-align: center;
+        justify-content: center;
+    align-items: center;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+      text-align: center;
+        justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+  margin-left: 1em;
+      text-align: center;
+        justify-content: center;
+    align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.form-control input {
+  padding: 5px;
+}
+
+/* BOOKS */
+.books-container {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.books-container div {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* BOOK */
+#book-page {
+  padding: 2em;
+}
+
+#book-page .container {
+  text-align: center;
+}
+
+.actions {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.actions a {
+  margin-right: 1em;
+}
+
+body {
+background:  rgba(45, 34, 130, 0.331);
+    font: normal  15pt Arial;
+    color:white
+    
+}
+header {
+     text-align: center;
+}
+section {
+    color: black;
+
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+
+}
+footer {
+    color:white;
+    text-align: center;
+    font-style: italic;
+
+}
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+div {
+
+     padding: 10px;
+     color: teste;
+}
+
+select#flista {
+width: 150px;
+}
+
+.btn {
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 0.5px;
+  padding: 10px 20px;
+  border-radius: 5000px;
+  transition: all 0.3s;
+
+}
+
+.btn:hover {
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+
+}
+
+
